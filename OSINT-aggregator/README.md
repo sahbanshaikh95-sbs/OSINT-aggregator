@@ -15,13 +15,7 @@ chmod +x setup.sh && ./setup.sh
 This installs `theharvester` and `whois`, creates a virtualenv, installs Python deps,
 saves your Shodan key to `.env`, optionally installs PhoneInfoga, and creates the `./osint` launcher.
 
-## Shodan API key
 
-1. Register at https://account.shodan.io/register
-2. Copy the key from https://account.shodan.io
-3. Provide it via any one of: `.env` file (`SHODAN_API_KEY=...`), `export SHODAN_API_KEY=...`, or `-k KEY`
-
-No key? The tool falls back to Shodan's free keyless **InternetDB** (ports, CPEs, hostnames, CVEs).
 
 ## Usage
 
